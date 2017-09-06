@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Customized gifts</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+
+	
+		<div class="container " id="main">
+		
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+					
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="/"><img src="images/logo1.png" alt="Your Logo"></a>
+					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">About</a>
+							</li>
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">All Gifts</a>
+									</li>
+									
+									<li>
+										<a href="#">Occasions</a>
+									</li>
+									
+									<li>
+										<a href="#">Corporate Gifts</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li class="dropdown-header">Offers</li>
+									
+									<li>
+										<a href="#">Affiliate/e-Dealer</a>
+									</li>
+									
+									<li>
+										<a href="#">Social Media Marketing</a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li>
+						</ul>
+						
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+						
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Sign up here <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+				
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+			
+			
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images/carousel_large_01.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Customized chocolate wrappers</h1>
+              <p>My own brand of chocolate</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="images/carousel_large_02.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>A pen that makes a statement.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="images/carousel_large_03.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Not just a picture, it's in 3 dimensions,it's a work of art within a crystal, it's a sculpture.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+			
+			
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+					
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+						
+						<h4>Success!</h4>
+						<p>You just made this element display by using jQuery. Click the "x" in the top right corner to close this bad boy.</p>
+					</div><!-- end alert -->
+					
+					<!-- Visible only on small devices -->
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+					</div><!-- end well-small -->
+					
+					<div class="well">
+						<div class="page-header">
+							<h1>Spread the Warmth of Love <small>Happiness/Smiles/Rejoice-spreading happiness.</small></h1>
+						</div><!-- end page-header -->
+						
+						<p class="lead">Create an Account :Sign up now to create an Account and start shopping. You'll receive exclusive offers every time you sign in and shop. Plus much more!</p>
+						
+						<a href="" class="btn btn-large btn-primary" id="alertMe">Register here</a>
+						<a href="" class="btn btn-large btn-link">or click this link</a>
+					</div><!-- end well -->
+					
+				</div><!-- end col-12 -->
+			</div><!-- end bigCallout -->
+			
+			
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2>Worried over how and from where to buy customized gifts??</h2>
+					<p class="lead">Well, take a sigh of relief as buying personalised gifts gets pleasurable with us. Yes, now with an ease you can shop for these gifts online from your own gifting store – Presto.</p>
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+			
+			
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Chocolate shares the love</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/basket.jpg" alt="HTML5" >
+						
+						<p>Chocolate is the answer!!!</p>
+						<p>Who cares what the question is.....</p>
+						
+						<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-warning btn-block">Share the happiness so order now!!</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Time seems pretty with a smile</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/watch.jpg" alt="CSS3" >
+						
+						<p>If you want to change the world, pick up your pen and write.</p>
+						<p>Let us remember: One book, one pen, one child, and one teacher can change the world.</p>
+						
+						
+						<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-danger btn-block">Wish others with their best time by gifting them</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Keep the happiness forever</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/photo.jpg" alt="Bootstrap 3" >
+						
+						<p>We keep this love in a photograph.....</p>
+						<p>Acamera is a save button for the mind's eye</p>
+						
+						<a href="http://getbootstrap.com/" target="_blank" class="btn btn-info btn-block">Photos are always the best way of giving surprises!!!</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+			
+			
+			<div class="row" id="moreInfo">
+
+				<div class="col-sm-12">
+					<h3>Talk:Personalized gifts</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Part 1</a></li>
+							<li><a href="#tab2" data-toggle="tab">Part 2</a></li>
+							<li><a href="#tab3" data-toggle="tab">Part 3</a></li>
+							<li><a href="#tab4" data-toggle="tab">Part 4</a></li>
+							<li><a href="#tab5" data-toggle="tab">Part 5</a></li>
+							<li><a href="#tab6" data-toggle="tab">Part 6</a></li>
+							<li><a href="#tab7" data-toggle="tab">Part 7</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4>perfume<small>Have a look!!</small></h4>
+								<img src="images/perfume.jpg" alt="perfume"/>
+								<p>Ecstasy Captured in a Bottle of Perfume Etched with a Name of Your Loved One</p>
+								<p>A personalized gift is the best way to pamper your near and dear ones as a token of your unconditional love. 
+							The costliest of gems in this world can never replace a gift with a personal touch.</p>
+								<p>You can buy your beloved a highly expensive branded perfume, but if you personalize it by engraving her name on the bottle, it infuses warmth into your relationship and becomes a priceless treasure for life.</p>
+								
+							</div><!-- end tab-pane -->
+							
+							<div class="tab-pane" id="tab2">
+								<h4>key ring<small>Go for it!!</small></h4>
+								
+								<img src="images/key.jpg" alt="key"/>
+								<p>
+									<form action="/action_page.php">
+  										<input type="checkbox">Crystal Keyrings
+  										<input type="checkbox">Metal Keyrings
+  										<input type="checkbox">Handy Keyrings
+  										<input type="checkbox">Wooden Keyrings
+  										<input type="checkbox">Impressive Keyrings
+  										<input type="submit" value="Submit">
+									</form>
+								</p>
+								<hr>
+								</div><!-- end modal-body -->
+
+								<div class="tab-pane" id="tab3">
+								<h4>Name plate<small>Go for it!!</small></h4>
+								
+								<img src="images/agarwal.jpg" alt="name"/>
+								<p>
+									<form action="/action_page.php">
+  										<input type="checkbox">Wooden Plate
+  										<input type="checkbox">Name board
+  										
+  										<input type="submit" value="Submit">
+									</form>
+								</p>
+								<hr>
+								</div><!-- end modal-body -->
+
+								<div class="tab-pane" id="tab4">
+								<h4>Stone work<small>Go for it!!</small></h4>
+								
+								<img src="images/stone.jpg" alt="name"/>
+								<form action="/action_page.php">
+  										<input type="checkbox">Photo Stone Plaque with Stands
+  										<input type="checkbox">Photo Stone Plaques
+  										<input type="checkbox">Stone Plaque on Stands
+  										
+  										<input type="submit" value="Submit">
+									</form>
+								<hr>
+								</div><!-- end modal-body -->
+
+								<div class="tab-pane" id="tab5">
+								<h4>T-Shirt<small>Go for it!!</small></h4>
+								
+								<img src="images/shirt.jpg" alt="name"/>
+									<form action="/action_page.php">
+  										<input type="checkbox">Non customizable Tee Shirt
+  										<input type="checkbox">Customizable Tee Shirt
+  										<input type="checkbox">Non customizable Couples Tee shirt
+  										<input type="checkbox">Zodiac T-shirt
+  										<input type="checkbox">Cotton T-shirt
+  										
+  										<input type="submit" value="Submit">
+									</form>
+								<hr>
+								</div><!-- end modal-body -->
+
+								<div class="tab-pane" id="tab6">
+								<h4>Gadget special<small>Go for it!!</small></h4>
+								
+								<img src="images/gadget.jpg" alt="name"/>
+								<form action="/action_page.php">
+  										<input type="checkbox">Samsung
+  										<input type="checkbox">iPhone
+  										<input type="checkbox">Motorola
+  										<input type="checkbox">HTC
+  										<input type="checkbox">One plus 5
+  										<input type="submit" value="Submit">
+									</form>
+								<hr>
+								</div><!-- end modal-body -->
+
+								<div class="tab-pane" id="tab7">
+								<h4>Leather wallet<small>Go for it!!</small></h4>
+								
+								<img src="images/purse.jpg" alt="name"/>
+								<form action="/action_page.php">
+  										<input type="checkbox">Male Zodiac Wallet
+  										<input type="checkbox">Wallet for women
+  										<input type="checkbox">Wallet for men
+  										<input type="submit" value="Submit">
+									</form>
+								<hr>
+								</div><!-- end modal-body -->
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+											</div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+								
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+				
+				<div class="col-sm-12">
+					<h3>Smart gift finder</h3>
+					<img src="perfume.jpg">
+					
+					<h4>Become a part of Prestogifts.com :</h4>
+					
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">SELECT BY MATERIAL</h4>
+							<p class="list-group-item-text">
+								<select>
+  									<option value="volvo">Wood</option>
+  									<option value="saab">Glass & Crystals</option>
+  									<option value="vw">Metal</option>
+  									<option value="audi">Stone</option>
+  									<option value="audi">Cushions</option>
+  									<option value="audi">Ceramic</option>
+  									<option value="audi">Perfume</option>
+  									<option value="audi">Canvas</option>
+  									<option value="audi">Chocolate</option>
+  									<option value="audi">T-Shirts</option>
+								</select>
+							</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">SELECT BY PRICE</h4>
+							<p class="list-group-item-text">
+								<select>
+  									<option value="volvo">Rs 50-100</option>
+  									<option value="saab">Rs 100-500</option>
+  									<option value="vw">RS 500-1000</option>
+  									<option value="audi">Rs 1000-2500</option>
+  									<option value="audi">Rs 2500-5000</option>
+  									<option value="audi">Rs 2500-5000</option>
+  									<option value="audi">Rs 5000-7500</option>
+  									<option value="audi">Rs 7500-10000</option>
+  									<option value="audi">Rs 10000 & above</option>
+  									<option value="audi">T-Shirts</option>
+								</select>	
+							</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">SELECT BY OCCASION</h4>
+							<p class="list-group-item-text">
+								<select>
+  									<option value="volvo">Holi</option>
+  									<option value="saab">Diwali</option>
+  									<option value="vw">Birthday</option>
+  									<option value="audi">Anniversary</option>
+  									<option value="audi">Wedding</option>
+  									<option value="audi">Mother's Day</option>
+  									<option value="audi">Father's Day</option>
+  									<option value="audi">Friendship Day</option>
+  									<option value="audi">Durga Puja</option>
+  									<option value="audi">Christmas</option>
+  									<option value="audi">New Year</option>
+								</select>
+							</p>
+						</a>
+					</div><!-- list-group -->
+					
+					<h5>Essence of gifts</h5>
+					<p>Personalized gifts in the traditional sense are gift items that carry either person’s full name, first name, surname, monogram or initials on them.Nowadays, the global marketplace offers numerous other ways of personalizing gifts, utilizing photos, logos, unique designs and even hand and foot prints. Not only has new technology made it possible to personalize in new ways but there are also a limitless number of items on which to apply this personalization. All this comes at only a fraction of what the cost used to be making personalization affordable for everyone.Personalizing gifts can be done with a variety of styles, colors and techniques to accommodate personal preferences. The most common personalization techniques are engraving, embroidery, screen-printing, etching and embossing.</p>
+				</div><!-- end col-sm-6 -->
+			</div><!-- end moreInfo -->
+			
+			<hr>
+			
+			<div class="row" id="moreCourses">
+				<div class="col-12">
+					<h3>Seller Sign-up</h3>
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								
+								
+								
+								
+								<div class="caption">
+									<img src="images/last1.jpg" alt="last1">
+									<p>Sell your Gift Products</p>
+									<p>If you are an manufacturer, importer, stockist or distributor of innovative and lovable gift products, you can plan to sell them on Presto Gifts online store. We are one of the oldest, most reliable and ethical business house selling personalized gifts.</p>
+									
+									<p><a href="https://www.udemy.com/build-beautiful-html5-website/" class="btn btn-primary btn-small" target="_blank">PLease share</a> <a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-small btn-link">Learn more</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+						
+						<div class="col-6">
+							<div class="thumbnail">
+								
+								
+								
+								
+								<div class="caption">
+								<img src="images/last2.jpg" alt="last2">
+									
+									<p>Sell your Designs</p>
+									<p>If you are a graphic artiste creating design templates which can be used on products like Tshirts, Digital art prints etc, you can now host your design on Presto Gifts online store.</p>
+									<p><a href="https://www.udemy.com/web-hosting-101/" class="btn btn-primary btn-small" target="_blank">Please share</a> <a href="https://www.udemy.com/web-hosting-101/" target="_blank" class="btn btn-small btn-link">Learn more</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+					</div><!-- end row -->
+				</div><!-- end col-12 -->
+			</div><!-- end moreCourses -->
+		</div><!-- end container -->
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+					<h6>Presto Membership</h6>
+					<p>Enjoy bonus points on every purchase. Be the first one to know about limited promotional offers.</p>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p><a href="#">www.prestogifts.com</a> : the best place to buy personalized gifts online in India. Presto is a well-established brand in the personalized gifts segment. Choose from a wide range of photo mugs, photo t-shirts, 3D-crystals, photo clocks, picture frames, softies and hundreds of other gifts. Upload pictures and personalize the gifts in easy steps to suit your needs [...]</p>
+					</div><!-- end col-sm-4 -->
+					
+					<div class="col-sm-2">
+						<h6>Mode of payment</h6>
+						<ul class="unstyled">
+							<li><a href="#">Credit Card</a></li>
+							<li><a href="#">Debit Card</a></li>
+							<li><a href="#">EMI</a></li>
+							<li><a href="#">Cash on Delivery</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Contact us :</h6>
+						<p>Head Office</p>
+						<p>16 A Chowringhee Mansions,30 J.L. Nehru Road,</p>
+						<p>Lift No.3, 2nd floor,Kolkata 700016 West Bengal, India</p>
+						<p>Mob: +91 8334985957</p>
+						<p>Email: contact@prestogifts.com</p>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
+
